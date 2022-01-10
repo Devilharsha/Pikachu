@@ -76,15 +76,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`hєllσ`[.](https://telegra.ph/file/caec4b208541417e7b4e6.jpg) `mч nαmє íѕ` *PIKACHU Bot*
-`í αm pσwєrfull  grσup mαnαgєmєnt вσt í ѕpєcíαlízє ín mαnαgíng єntєrtαínmєnt tчpє grσupѕ.
+`hєllσ`[.](https://telegra.ph/file/fc854b87d03eb9833bf6d.jpg) `mч nαmє íѕ` *infernipeBot*
+`í αm all in one bot + pσwєrfull  grσup mαnαgєmєnt вσt í ѕpєcíαlízє ín mαnαgíng єntєrtαínmєnt tчpє grσupѕ.
 чσu cαn fínd mч líѕt σf αvαílαвlє cσmmαndѕ wíth! hít` *🔰Commands*   
 """
 
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️", url="https://t.me/pikachu_X_bot?startgroup=true"
+            text="➕️ ADD ME TO YOUR GROUP ➕️", url="https://t.me/Infernipe_bot?startgroup=true"
         ),
     ],
     [
@@ -92,36 +92,36 @@ buttons = [
     ],
     [
         InlineKeyboardButton(
-            text="🤴 Repo", url="https://github.com/kaal0408/Pikachu"
+            text="🤴 master", url="https://t.me/harshahero"
         ),
     ],
     [
         InlineKeyboardButton(
-            text="♥Lovely status♥",
-            url="https://t.me/skyverse01",
+            text="❤️cartoons♥",
+            url="https://t.me/supercartoonintelugu",
         ),
     ],
     [
          InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/PikachuX_Support"
+            text="👥 SUPPORT", url="https://t.me/NovusSupport"
         ),
     ],
    [
          InlineKeyboardButton(
-            text="👥 Owner", url="https://t.me/Hayat_Murat_30"
+            text="👥 updates", url="https://t.me/NovusUpdates"
         ),
     ],
 ]
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [Pikachu] 
+`ʜɪ.. ɪ'ᴍ` [infernipe] 
 `ᴄʟɪᴄk ᴏn ᴛʜє ʙᴜᴛᴛᴏɴѕ ʙᴇʟᴏw ᴛσ ɢᴇt ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏn ᴀʙᴏᴜt ꜱᴘᴇᴄɪꜰɪc ᴍᴏᴅᴜʟᴇѕ..`"""
 
-pikachu_IMG = "https://telegra.ph/file/caec4b208541417e7b4e6.jpg"
+infernipe_IMG = "https://telegra.ph/file/d7cc06dcc4f630f2a8e54.jpg"
 
 DONATE_STRING = """hєчα, glαd tσ hєαr чσu wαnt tσ dσnαtє!
- чσu cαn ѕuppσrt thє prσjєct вч cσntαctíng @Hayat_Murat_30 \
+ чσu cαn ѕuppσrt thє prσjєct вч cσntαctíng @harshahero \
  ѕuppσrtíng íѕnt αlwαчѕ fínαncíαl! \
  thσѕє whσ cαnnσt prσvídє mσnєtαrч ѕuppσrt αrє wєlcσmє tσ hєlp uѕ dєvєlσp thє вσt αt ."""
 
@@ -368,15 +368,15 @@ def Pikachu_about_callback(update, context):
     query = update.callback_query
     if query.data == "Pikachu_":
         query.message.edit_text(
-            text=""" ℹ️ I'm *Pikachu*, a powerful group management bot built to help you manage your group easily.
+            text=""" ℹ️ I'm *infernipe*, I'm a all in one bot built to help you manage your group easily.
                  \n❍ í cαn rєѕtríct uѕєrѕ.
                  \n❍ í cαn grєєt uѕєrѕ wíth cuѕtσmízαвlє wєlcσmє mєѕѕαgєѕ αnd єvєn ѕєt α grσupѕ rulєѕ.
                  \n❍ í hαvє αn αdvαncєd αntí-flσσd ѕчѕtєm.
                  \n❍ í cαn wαrn uѕєrѕ untíl thєч rєαch mαх wαrnѕ, wíth єαch prєdєfínєd αctíσnѕ ѕuch αѕ вαn, mutє, kíck, єtc.
                  \n❍ í hαvє α nσtє kєєpíng ѕчѕtєm, вlαcklíѕtѕ, αnd єvєn prєdєtєrmínєd rєplíєѕ σn cєrtαín kєчwσrdѕѕ.
                  \n❍ í chєck fσr adminѕ' pєrmíѕѕíσnѕ вєfσrє єхєcutíng αnч cσmmαnd αnd mσrє ѕtuffѕ
-                 \n\n_pikachu licensed under the GNU General Public License v3.0_
-                 \nhєrє íѕ thє [💾Repository](https://github.com/kaal0408/pikachu).
+                 \n\n_infernipe licensed under the GNU General Public License v3.0_
+                 \nhєrє íѕ thє [updates](@NovusUpdates).
                  \n\níf чσu hαvє αnч quєѕtíσn αвσut píkαchu, lєt uѕ knσw αt .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
@@ -403,8 +403,8 @@ def Source_about_callback(update, context):
     query = update.callback_query
     if query.data == "source_":
         query.message.edit_text(
-            text=""" Hi..🤗 I'm *Pikachu *
-                 \nHere is the [Source Code](https://github.com/Pikachu) .""",
+            text=""" Hi..🤗 I'm *infernipe*
+                 \nHere is the [support](https://github.com/Pikachu) .""",
             parse_mode=ParseMode.MARKDOWN,
             disable_web_page_preview=True,
             reply_markup=InlineKeyboardMarkup(
