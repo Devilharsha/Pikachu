@@ -283,7 +283,7 @@ async def lego(event):
     fname = "infernipe.jpg"
     img.save(fname, "png")
     await pesan.edit('`Done`')
-    await telethn.send_file(event.chat_id, file=fname, caption = f"Made by [pikachu だ](t.me/PikachuX_Support)")
+    await telethn.send_file(event.chat_id, file=fname, caption = f"Made by [infernipeだ](t.me/Novussupport)")
     await pesan.delete()
     if os.path.exists(fname):
             os.remove(fname)
