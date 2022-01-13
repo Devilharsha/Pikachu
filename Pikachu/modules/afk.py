@@ -58,14 +58,14 @@ def no_longer_afk(update: Update, context: CallbackContext):
         firstname = update.effective_user.first_name
         try:
             options = [
-                "[{} is here!](By @@PikachuX_Support)",
-                "[{} is back!](By @PikachuX_Support)",
-                "[{} is now in the chat!](By @PikachuX_Support)",
-                "[{} is awake!](By @PikachuX_Support)",
-                "[{} is back online!](By @PikachuX_Support)",
-                "[{} is finally here!](By @PikachuX_Support)",
-                "[{} Welcome back!](By @PikachuX_Support)",
-                "[Where is {}?\nIn the chat!](By @PikachuX_Support)",
+                "[{} is here!](By @@NovusSupport)",
+                "[{} is back!](By @NovusSupport)",
+                "[{} is now in the chat!](By @NovusSupport)",
+                "[{} is awake!](By @NovusSupport)",
+                "[{} is back online!](By @NovusSupport)",
+                "[{} is finally here!](By @NovusSupport)",
+                "[{} Welcome back!](By @NovusSupport)",
+                "[Where is {}?\nIn the chat!](By @NovusSupport)",
             ]
             chosen_option = random.choice(options)
             update.effective_message.reply_text(chosen_option.format(firstname))
