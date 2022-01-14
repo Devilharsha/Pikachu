@@ -99,14 +99,12 @@ buttons = [
             text="💬Cʜɪᴛ Cʜᴀᴛ",
              url="https://t.me/NovusSupport"
         ),
-    ],
-   [
          InlineKeyboardButton(
             text="🔝Uᴘᴅᴀᴛᴇs",
              url="https://t.me/NovusUpdates"
         ),
-    ],
- [
+    
+       [
          InlineKeyboardButton(
             text="👑Oᴡɴᴇʀ", 
              url="https://t.me/harshahero"
