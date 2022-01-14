@@ -90,34 +90,38 @@ PM_START_TEXT = """
 buttons = [
     [
         InlineKeyboardButton(
-            text="➕️ ADD ME TO YOUR GROUP ➕️", url="https://t.me/Infernipe_bot?startgroup=true"
-        ),
-    ],
-    [
-        InlineKeyboardButton(text="🔰 COMMANDS", callback_data="help_back"),
-    ],
-    [
-        InlineKeyboardButton(
-            text="🤴 master", url="https://t.me/harshahero"
-        ),
-    ],
-    [
-        InlineKeyboardButton(
-            text="❤️cartoons♥",
-            url="https://t.me/supercartoonintelugu",
+            text="➕️Aᴅᴅ Iɴғᴇʀɴɪᴘᴇ",
+             url="https://t.me/Infernipe_bot?startgroup=true"
         ),
     ],
     [
          InlineKeyboardButton(
-            text="👥 SUPPORT", url="https://t.me/NovusSupport"
+            text="💬Cʜɪᴛ Cʜᴀᴛ",
+             url="https://t.me/NovusSupport"
         ),
     ],
    [
          InlineKeyboardButton(
-            text="👥 updates", url="https://t.me/NovusUpdates"
+            text="🔝Uᴘᴅᴀᴛᴇs",
+             url="https://t.me/NovusUpdates"
         ),
     ],
-]
+ [
+         InlineKeyboardButton(
+            text="👑Oᴡɴᴇʀ", 
+             url="https://t.me/harshahero"
+        ),
+         InlineKeyboardButton(
+            text="💢Cᴀʀᴛᴏᴏɴs",
+             url="https://t.me/supercartoonintelugu",
+        ),
+    ],
+    [ 
+        InlineKeyboardButton(
+            text="📖Cᴏᴍᴍᴀɴᴅs", 
+             callback_data="help_back"),
+    ],
+   ]
 
 
 HELP_STRINGS = """
