@@ -76,9 +76,15 @@ def get_readable_time(seconds: int) -> str:
 
 
 PM_START_TEXT = """
-`hєllσ`[.](https://telegra.ph/file/fc854b87d03eb9833bf6d.jpg) `mч nαmє íѕ` *infernipeBot*
-`í αm all in one bot + pσwєrfull  grσup mαnαgєmєnt вσt í ѕpєcíαlízє ín mαnαgíng єntєrtαínmєnt tчpє grσupѕ.
-чσu cαn fínd mч líѕt σf αvαílαвlє cσmmαndѕ wíth! hít` *🔰Commands*   
+─►❰({ })[https://telegra.ph/file/fc854b87d03eb9833bf6d.jpg] ❱◄─
+𝙷𝙸𝙾 𝚃𝙷𝙴𝚁𝙴!
+𝙸 𝚊𝚖 𝙸𝙽𝙵𝙴𝚁𝙽𝙸𝙿𝙴 𝙰 𝙿𝚘𝚠𝚎𝚛𝚏𝚞𝚕𝚕 𝚐𝚛𝚘𝚞𝚙 𝚖𝚊𝚗𝚊𝚐𝚎𝚛 𝚗𝚒𝚌𝚎 𝚝𝚘 𝚖𝚎𝚎𝚝 𝚢𝚘𝚞
+┏━━━━━━━━━━━━━━━━━━┓
+┃➛ᴄᴏɴᴛᴀᴄᴛ ᴍʏ [ᴍᴀsᴛᴇʀ](t.me/harshahero) ғᴏʀ
+┃ᴀɴʏ ǫᴜᴇʀʏ ᴀɴᴅ [Sᴜᴘᴘᴏʀᴛ](t.me/NovusSupport) ʜᴇʀᴇ
+┃ × I sᴘᴇᴄɪᴀʟɪsᴇ ɪɴ ᴍᴀɴᴀɢɪɴɢ ┃ᴇɴᴛᴇʀᴛᴀɪɴᴍᴇɴᴛ ᴛʏᴘᴇ ɢʀᴏᴜᴘs. 
+┗━━━━━━━━━━━━━━━━━━┛
+➛ Tʀʏ Tᕼᴇ Hᴇʟᴘ Bᴜᴛᴛᴏɴs Bᴇʟᴏᴡ Tᴏ Kɴᴏᴡ Mʏ Aʙɪʟɪᴛɪᴇs ××   
 """
 
 buttons = [
