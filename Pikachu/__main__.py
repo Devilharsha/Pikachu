@@ -103,8 +103,8 @@ buttons = [
             text="🔝Uᴘᴅᴀᴛᴇs",
              url="https://t.me/NovusUpdates"
         ),
-    
-       [
+     ],
+    [
          InlineKeyboardButton(
             text="👑Oᴡɴᴇʀ", 
              url="https://t.me/harshahero"
@@ -119,7 +119,7 @@ buttons = [
             text="📖Cᴏᴍᴍᴀɴᴅs", 
              callback_data="help_back"),
     ],
-   ]
+       ]
 
 
 HELP_STRINGS = """
