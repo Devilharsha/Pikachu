@@ -123,7 +123,7 @@ buttons = [
 
 
 HELP_STRINGS = """
-`ʜɪ.. ɪ'ᴍ` [infernipe] 
+─►[Iɴғᴇʀɴɪᴘᴇ ʜᴇʟᴘ](https://telegra.ph/file/8c52fdf3c0d25e51c4a44.jpg)◄─
 `ᴄʟɪᴄk ᴏn ᴛʜє ʙᴜᴛᴛᴏɴѕ ʙᴇʟᴏw ᴛσ ɢᴇt ᴅᴏᴄᴜᴍᴇɴᴛᴀᴛɪᴏn ᴀʙᴏᴜt ꜱᴘᴇᴄɪꜰɪc ᴍᴏᴅᴜʟᴇѕ..`"""
 
 infernipe_IMG = "https://telegra.ph/file/d7cc06dcc4f630f2a8e54.jpg"
