@@ -7,10 +7,10 @@ from telegram.ext import Filters, CommandHandler
 from telegram.ext.dispatcher import run_async, CallbackContext
 
 import random
-import VegetaRobot.modules.sql.users_sql as sql
-from VegetaRobot.modules.helper_funcs.filters import CustomFilters
-from VegetaRobot import dispatcher, OWNER_ID, LOGGER
-from VegetaRobot.modules.disable import DisableAbleCommandHandler
+import Pikachu.modules.sql.users_sql as sql
+from Pikachu.modules.helper_funcs.filters import CustomFilters
+from Pikachu import dispatcher, OWNER_ID, LOGGER
+from Pikachu.modules.disable import DisableAbleCommandHandler
 USERS_GROUP = 4
 
 @run_async
