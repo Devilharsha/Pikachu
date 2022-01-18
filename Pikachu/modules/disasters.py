@@ -3,7 +3,7 @@ import json
 import os
 from typing import Optional
 
-from NekoRobot import (
+from Pikachu import (
     DEV_USERS,
     OWNER_ID,
     DRAGONS,
@@ -13,7 +13,7 @@ from NekoRobot import (
     WOLVES,
     dispatcher,
 )
-from NekoRobot.modules.helper_funcs.chat_status import (
+from Pikachu.modules.helper_funcs.chat_status import (
     dev_plus,
     sudo_plus,
     whitelist_plus,
