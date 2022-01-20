@@ -1,4 +1,4 @@
 @echo off
-TITLE Pikachu
+TITLE Infernipe
 :: Enables virtual env mode and then starts Rika
-env\scripts\activate.bat && py -m Pikachu
+env\scripts\activate.bat && py -m Infernipe
